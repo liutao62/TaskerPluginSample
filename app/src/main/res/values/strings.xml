@@ -53,4 +53,9 @@
     <string name="time_taken_description">The time it took for the background work to complete in millis</string>
     <string name="result">Result</string>
     <string name="result_description">Text user input in the dialog</string>
+    <string name="departure">出发</string>
+    <string name="destination">到达</string>
+    <string name="expectDate">期望出行日期</string>
+    <string name="expectPrice">期望价格</string>
+    <string name="scope">监控前后多少天的</string>
 </resources>

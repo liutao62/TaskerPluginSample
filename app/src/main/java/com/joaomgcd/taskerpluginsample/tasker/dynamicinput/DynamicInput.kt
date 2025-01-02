@@ -40,7 +40,7 @@ class DynamicInputRunner : TaskerPluginRunnerActionNoOutputOrInput() {
     override fun run(context: Context, input: TaskerInput<Unit>): TaskerPluginResult<Unit> {
         StringBuilder().apply {
             infosForTasker.forEach {
-                input.dynamic.getByKey(it.name)?.let { append("${it.key}:${it.value}").append("\n") }
+                input.dynamic.getByKey(it.name)?.let { append("${it.key}:${it.value}").append("\n").append("liutaoq") }
             }
         }.toString().toToast(context)
 
