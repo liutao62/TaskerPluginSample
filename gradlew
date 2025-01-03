@@ -125,6 +125,7 @@ if [ -n "$JAVA_HOME" ] ; then
     else
         JAVACMD=$JAVA_HOME/bin/java
     fi
+    JAVACMD="/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home/bin/java"
     if [ ! -x "$JAVACMD" ] ; then
         die "ERROR: JAVA_HOME is set to an invalid directory: $JAVA_HOME
 
